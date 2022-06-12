@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		17EB37DDF43B5E9B8D70BA0A /* Pods_Termo_TermoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD8699978CB47804C676389 /* Pods_Termo_TermoUITests.framework */; };
 		209BA45F2856381A00D6AFDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BA45E2856381A00D6AFDF /* AppDelegate.swift */; };
-		209BA4612856381A00D6AFDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BA4602856381A00D6AFDF /* SceneDelegate.swift */; };
-		209BA4632856381A00D6AFDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BA4622856381A00D6AFDF /* ViewController.swift */; };
-		209BA4662856381A00D6AFDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209BA4642856381A00D6AFDF /* Main.storyboard */; };
+		209BA4632856381A00D6AFDF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BA4622856381A00D6AFDF /* HomeViewController.swift */; };
 		209BA4692856381A00D6AFDF /* Termo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 209BA4672856381A00D6AFDF /* Termo.xcdatamodeld */; };
 		209BA46B2856381A00D6AFDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209BA46A2856381A00D6AFDF /* Assets.xcassets */; };
 		209BA46E2856381A00D6AFDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209BA46C2856381A00D6AFDF /* LaunchScreen.storyboard */; };
@@ -19,6 +17,7 @@
 		209BA4832856381B00D6AFDF /* TermoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BA4822856381B00D6AFDF /* TermoUITests.swift */; };
 		209BA4852856381B00D6AFDF /* TermoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BA4842856381B00D6AFDF /* TermoUITestsLaunchTests.swift */; };
 		209BA49328563A2800D6AFDF /* TinyConstraints in Frameworks */ = {isa = PBXBuildFile; productRef = 209BA49228563A2800D6AFDF /* TinyConstraints */; };
+		209BA49728563CB700D6AFDF /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BA49628563CB700D6AFDF /* AppCoordinator.swift */; };
 		52A1391A3265AA474B4B417A /* Pods_TermoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AB65A2AC9F53DC8D4301FD /* Pods_TermoTests.framework */; };
 		6CE486728A2C7AD137A73BF0 /* Pods_Termo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C31E9DBAE140086F5816E0A /* Pods_Termo.framework */; };
 /* End PBXBuildFile section */
@@ -44,9 +43,7 @@
 		1F3C1A3281442CB4F30EC072 /* Pods-Termo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Termo.release.xcconfig"; path = "Target Support Files/Pods-Termo/Pods-Termo.release.xcconfig"; sourceTree = "<group>"; };
 		209BA45B2856381A00D6AFDF /* Termo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Termo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		209BA45E2856381A00D6AFDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		209BA4602856381A00D6AFDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		209BA4622856381A00D6AFDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		209BA4652856381A00D6AFDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		209BA4622856381A00D6AFDF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		209BA4682856381A00D6AFDF /* Termo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Termo.xcdatamodel; sourceTree = "<group>"; };
 		209BA46A2856381A00D6AFDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		209BA46D2856381A00D6AFDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +53,7 @@
 		209BA47E2856381B00D6AFDF /* TermoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TermoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		209BA4822856381B00D6AFDF /* TermoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermoUITests.swift; sourceTree = "<group>"; };
 		209BA4842856381B00D6AFDF /* TermoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		209BA49628563CB700D6AFDF /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		3CA7A9530B1740F285C58DFF /* Pods-Termo-TermoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Termo-TermoUITests.release.xcconfig"; path = "Target Support Files/Pods-Termo-TermoUITests/Pods-Termo-TermoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3DD8699978CB47804C676389 /* Pods_Termo_TermoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Termo_TermoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AACE1D1EF48F34E74E3B051 /* Pods-Termo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Termo.debug.xcconfig"; path = "Target Support Files/Pods-Termo/Pods-Termo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,14 +118,10 @@
 		209BA45D2856381A00D6AFDF /* Termo */ = {
 			isa = PBXGroup;
 			children = (
-				209BA45E2856381A00D6AFDF /* AppDelegate.swift */,
-				209BA4602856381A00D6AFDF /* SceneDelegate.swift */,
-				209BA4622856381A00D6AFDF /* ViewController.swift */,
-				209BA4642856381A00D6AFDF /* Main.storyboard */,
-				209BA46A2856381A00D6AFDF /* Assets.xcassets */,
-				209BA46C2856381A00D6AFDF /* LaunchScreen.storyboard */,
+				209BA49528563C1800D6AFDF /* Resources */,
+				209BA49428563BEF00D6AFDF /* Home */,
 				209BA46F2856381A00D6AFDF /* Info.plist */,
-				209BA4672856381A00D6AFDF /* Termo.xcdatamodeld */,
+				209BA49628563CB700D6AFDF /* AppCoordinator.swift */,
 			);
 			path = Termo;
 			sourceTree = "<group>";
@@ -149,6 +143,25 @@
 			path = TermoUITests;
 			sourceTree = "<group>";
 		};
+		209BA49428563BEF00D6AFDF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				209BA4622856381A00D6AFDF /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		209BA49528563C1800D6AFDF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				209BA4672856381A00D6AFDF /* Termo.xcdatamodeld */,
+				209BA46A2856381A00D6AFDF /* Assets.xcassets */,
+				209BA45E2856381A00D6AFDF /* AppDelegate.swift */,
+				209BA46C2856381A00D6AFDF /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		22212EA87D1C9C3371D48E8F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,7 +172,6 @@
 				EB92389256157A836F340B0D /* Pods-TermoTests.debug.xcconfig */,
 				970F45EB14EBF4C68CA2153E /* Pods-TermoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -270,7 +282,7 @@
 			);
 			mainGroup = 209BA4522856381A00D6AFDF;
 			packageReferences = (
-				209BA49128563A2800D6AFDF /* XCRemoteSwiftPackageReference "TinyConstraints.git" */,
+				209BA49128563A2800D6AFDF /* XCRemoteSwiftPackageReference "TinyConstraints" */,
 			);
 			productRefGroup = 209BA45C2856381A00D6AFDF /* Products */;
 			projectDirPath = "";
@@ -290,7 +302,6 @@
 			files = (
 				209BA46E2856381A00D6AFDF /* LaunchScreen.storyboard in Resources */,
 				209BA46B2856381A00D6AFDF /* Assets.xcassets in Resources */,
-				209BA4662856381A00D6AFDF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,10 +429,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				209BA4632856381A00D6AFDF /* ViewController.swift in Sources */,
+				209BA49728563CB700D6AFDF /* AppCoordinator.swift in Sources */,
+				209BA4632856381A00D6AFDF /* HomeViewController.swift in Sources */,
 				209BA4692856381A00D6AFDF /* Termo.xcdatamodeld in Sources */,
 				209BA45F2856381A00D6AFDF /* AppDelegate.swift in Sources */,
-				209BA4612856381A00D6AFDF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,14 +469,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		209BA4642856381A00D6AFDF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				209BA4652856381A00D6AFDF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		209BA46C2856381A00D6AFDF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -604,7 +607,6 @@
 				INFOPLIST_FILE = Termo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -633,7 +635,6 @@
 				INFOPLIST_FILE = Termo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -771,7 +772,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		209BA49128563A2800D6AFDF /* XCRemoteSwiftPackageReference "TinyConstraints.git" */ = {
+		209BA49128563A2800D6AFDF /* XCRemoteSwiftPackageReference "TinyConstraints" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/roberthein/TinyConstraints.git";
 			requirement = {
@@ -784,7 +785,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		209BA49228563A2800D6AFDF /* TinyConstraints */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 209BA49128563A2800D6AFDF /* XCRemoteSwiftPackageReference "TinyConstraints.git" */;
+			package = 209BA49128563A2800D6AFDF /* XCRemoteSwiftPackageReference "TinyConstraints" */;
 			productName = TinyConstraints;
 		};
 /* End XCSwiftPackageProductDependency section */
