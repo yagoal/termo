@@ -1,0 +1,6 @@
+framework module Pods_Termo {
+  umbrella header "Pods-Termo-umbrella.h"
+
+  export *
+  module * { export * }
+}

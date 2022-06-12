@@ -1,0 +1,6 @@
+framework module Pods_Termo_TermoUITests {
+  umbrella header "Pods-Termo-TermoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

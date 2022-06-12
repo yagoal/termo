@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17EB37DDF43B5E9B8D70BA0A /* Pods_Termo_TermoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD8699978CB47804C676389 /* Pods_Termo_TermoUITests.framework */; };
 		209BA45F2856381A00D6AFDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BA45E2856381A00D6AFDF /* AppDelegate.swift */; };
 		209BA4612856381A00D6AFDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BA4602856381A00D6AFDF /* SceneDelegate.swift */; };
 		209BA4632856381A00D6AFDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BA4622856381A00D6AFDF /* ViewController.swift */; };
@@ -17,6 +18,9 @@
 		209BA4792856381B00D6AFDF /* TermoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BA4782856381B00D6AFDF /* TermoTests.swift */; };
 		209BA4832856381B00D6AFDF /* TermoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BA4822856381B00D6AFDF /* TermoUITests.swift */; };
 		209BA4852856381B00D6AFDF /* TermoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BA4842856381B00D6AFDF /* TermoUITestsLaunchTests.swift */; };
+		209BA49328563A2800D6AFDF /* TinyConstraints in Frameworks */ = {isa = PBXBuildFile; productRef = 209BA49228563A2800D6AFDF /* TinyConstraints */; };
+		52A1391A3265AA474B4B417A /* Pods_TermoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AB65A2AC9F53DC8D4301FD /* Pods_TermoTests.framework */; };
+		6CE486728A2C7AD137A73BF0 /* Pods_Termo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C31E9DBAE140086F5816E0A /* Pods_Termo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F3C1A3281442CB4F30EC072 /* Pods-Termo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Termo.release.xcconfig"; path = "Target Support Files/Pods-Termo/Pods-Termo.release.xcconfig"; sourceTree = "<group>"; };
 		209BA45B2856381A00D6AFDF /* Termo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Termo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		209BA45E2856381A00D6AFDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		209BA4602856381A00D6AFDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +56,14 @@
 		209BA47E2856381B00D6AFDF /* TermoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TermoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		209BA4822856381B00D6AFDF /* TermoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermoUITests.swift; sourceTree = "<group>"; };
 		209BA4842856381B00D6AFDF /* TermoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3CA7A9530B1740F285C58DFF /* Pods-Termo-TermoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Termo-TermoUITests.release.xcconfig"; path = "Target Support Files/Pods-Termo-TermoUITests/Pods-Termo-TermoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3DD8699978CB47804C676389 /* Pods_Termo_TermoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Termo_TermoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AACE1D1EF48F34E74E3B051 /* Pods-Termo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Termo.debug.xcconfig"; path = "Target Support Files/Pods-Termo/Pods-Termo.debug.xcconfig"; sourceTree = "<group>"; };
+		7C31E9DBAE140086F5816E0A /* Pods_Termo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Termo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB65A2AC9F53DC8D4301FD /* Pods_TermoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TermoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		970F45EB14EBF4C68CA2153E /* Pods-TermoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TermoTests.release.xcconfig"; path = "Target Support Files/Pods-TermoTests/Pods-TermoTests.release.xcconfig"; sourceTree = "<group>"; };
+		A1AA8E630A2C26CDFE29D84A /* Pods-Termo-TermoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Termo-TermoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Termo-TermoUITests/Pods-Termo-TermoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB92389256157A836F340B0D /* Pods-TermoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TermoTests.debug.xcconfig"; path = "Target Support Files/Pods-TermoTests/Pods-TermoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				209BA49328563A2800D6AFDF /* TinyConstraints in Frameworks */,
+				6CE486728A2C7AD137A73BF0 /* Pods_Termo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A1391A3265AA474B4B417A /* Pods_TermoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17EB37DDF43B5E9B8D70BA0A /* Pods_Termo_TermoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +102,8 @@
 				209BA4772856381B00D6AFDF /* TermoTests */,
 				209BA4812856381B00D6AFDF /* TermoUITests */,
 				209BA45C2856381A00D6AFDF /* Products */,
+				22212EA87D1C9C3371D48E8F /* Pods */,
+				A940B9EF5ECB4E97EBCC6F9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +149,30 @@
 			path = TermoUITests;
 			sourceTree = "<group>";
 		};
+		22212EA87D1C9C3371D48E8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AACE1D1EF48F34E74E3B051 /* Pods-Termo.debug.xcconfig */,
+				1F3C1A3281442CB4F30EC072 /* Pods-Termo.release.xcconfig */,
+				A1AA8E630A2C26CDFE29D84A /* Pods-Termo-TermoUITests.debug.xcconfig */,
+				3CA7A9530B1740F285C58DFF /* Pods-Termo-TermoUITests.release.xcconfig */,
+				EB92389256157A836F340B0D /* Pods-TermoTests.debug.xcconfig */,
+				970F45EB14EBF4C68CA2153E /* Pods-TermoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A940B9EF5ECB4E97EBCC6F9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C31E9DBAE140086F5816E0A /* Pods_Termo.framework */,
+				3DD8699978CB47804C676389 /* Pods_Termo_TermoUITests.framework */,
+				81AB65A2AC9F53DC8D4301FD /* Pods_TermoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,15 +180,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 209BA4882856381B00D6AFDF /* Build configuration list for PBXNativeTarget "Termo" */;
 			buildPhases = (
+				3FA697F79A0615B5BF88B2F2 /* [CP] Check Pods Manifest.lock */,
 				209BA4572856381A00D6AFDF /* Sources */,
 				209BA4582856381A00D6AFDF /* Frameworks */,
 				209BA4592856381A00D6AFDF /* Resources */,
+				7EBD1F5534FFD28D935151AF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Termo;
+			packageProductDependencies = (
+				209BA49228563A2800D6AFDF /* TinyConstraints */,
+			);
 			productName = Termo;
 			productReference = 209BA45B2856381A00D6AFDF /* Termo.app */;
 			productType = "com.apple.product-type.application";
@@ -154,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 209BA48B2856381B00D6AFDF /* Build configuration list for PBXNativeTarget "TermoTests" */;
 			buildPhases = (
+				6CB28DC92B2C0B680C7A13B0 /* [CP] Check Pods Manifest.lock */,
 				209BA4702856381B00D6AFDF /* Sources */,
 				209BA4712856381B00D6AFDF /* Frameworks */,
 				209BA4722856381B00D6AFDF /* Resources */,
@@ -172,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 209BA48E2856381B00D6AFDF /* Build configuration list for PBXNativeTarget "TermoUITests" */;
 			buildPhases = (
+				5D087FF5E8F8847559FDAC6E /* [CP] Check Pods Manifest.lock */,
 				209BA47A2856381B00D6AFDF /* Sources */,
 				209BA47B2856381B00D6AFDF /* Frameworks */,
 				209BA47C2856381B00D6AFDF /* Resources */,
+				E7A9451D37B42C4E84A8564A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -218,6 +269,9 @@
 				Base,
 			);
 			mainGroup = 209BA4522856381A00D6AFDF;
+			packageReferences = (
+				209BA49128563A2800D6AFDF /* XCRemoteSwiftPackageReference "TinyConstraints.git" */,
+			);
 			productRefGroup = 209BA45C2856381A00D6AFDF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -255,6 +309,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FA697F79A0615B5BF88B2F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Termo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D087FF5E8F8847559FDAC6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Termo-TermoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CB28DC92B2C0B680C7A13B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TermoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EBD1F5534FFD28D935151AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Termo/Pods-Termo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Termo/Pods-Termo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Termo/Pods-Termo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7A9451D37B42C4E84A8564A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Termo-TermoUITests/Pods-Termo-TermoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Termo-TermoUITests/Pods-Termo-TermoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Termo-TermoUITests/Pods-Termo-TermoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		209BA4572856381A00D6AFDF /* Sources */ = {
@@ -436,6 +593,7 @@
 		};
 		209BA4892856381B00D6AFDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AACE1D1EF48F34E74E3B051 /* Pods-Termo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +622,7 @@
 		};
 		209BA48A2856381B00D6AFDF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F3C1A3281442CB4F30EC072 /* Pods-Termo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -492,6 +651,7 @@
 		};
 		209BA48C2856381B00D6AFDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB92389256157A836F340B0D /* Pods-TermoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +672,7 @@
 		};
 		209BA48D2856381B00D6AFDF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 970F45EB14EBF4C68CA2153E /* Pods-TermoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +693,7 @@
 		};
 		209BA48F2856381B00D6AFDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1AA8E630A2C26CDFE29D84A /* Pods-Termo-TermoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +712,7 @@
 		};
 		209BA4902856381B00D6AFDF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CA7A9530B1740F285C58DFF /* Pods-Termo-TermoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -606,6 +769,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		209BA49128563A2800D6AFDF /* XCRemoteSwiftPackageReference "TinyConstraints.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/roberthein/TinyConstraints.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		209BA49228563A2800D6AFDF /* TinyConstraints */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 209BA49128563A2800D6AFDF /* XCRemoteSwiftPackageReference "TinyConstraints.git" */;
+			productName = TinyConstraints;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		209BA4672856381A00D6AFDF /* Termo.xcdatamodeld */ = {
