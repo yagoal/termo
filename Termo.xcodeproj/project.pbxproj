@@ -18,6 +18,10 @@
 		209BA4852856381B00D6AFDF /* TermoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BA4842856381B00D6AFDF /* TermoUITestsLaunchTests.swift */; };
 		209BA49328563A2800D6AFDF /* TinyConstraints in Frameworks */ = {isa = PBXBuildFile; productRef = 209BA49228563A2800D6AFDF /* TinyConstraints */; };
 		209BA49728563CB700D6AFDF /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BA49628563CB700D6AFDF /* AppCoordinator.swift */; };
+		209BA664285771C600D6AFDF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BA662285771C600D6AFDF /* HomeViewModel.swift */; };
+		209BA665285771C600D6AFDF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BA663285771C600D6AFDF /* HomeView.swift */; };
+		209BA6672857741200D6AFDF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BA6662857741200D6AFDF /* GameViewController.swift */; };
+		209BA67E28577A1B00D6AFDF /* TinyConstraints in Frameworks */ = {isa = PBXBuildFile; productRef = 209BA67D28577A1B00D6AFDF /* TinyConstraints */; };
 		52A1391A3265AA474B4B417A /* Pods_TermoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AB65A2AC9F53DC8D4301FD /* Pods_TermoTests.framework */; };
 		6CE486728A2C7AD137A73BF0 /* Pods_Termo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C31E9DBAE140086F5816E0A /* Pods_Termo.framework */; };
 /* End PBXBuildFile section */
@@ -54,6 +58,9 @@
 		209BA4822856381B00D6AFDF /* TermoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermoUITests.swift; sourceTree = "<group>"; };
 		209BA4842856381B00D6AFDF /* TermoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		209BA49628563CB700D6AFDF /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		209BA662285771C600D6AFDF /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		209BA663285771C600D6AFDF /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		209BA6662857741200D6AFDF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		3CA7A9530B1740F285C58DFF /* Pods-Termo-TermoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Termo-TermoUITests.release.xcconfig"; path = "Target Support Files/Pods-Termo-TermoUITests/Pods-Termo-TermoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3DD8699978CB47804C676389 /* Pods_Termo_TermoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Termo_TermoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AACE1D1EF48F34E74E3B051 /* Pods-Termo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Termo.debug.xcconfig"; path = "Target Support Files/Pods-Termo/Pods-Termo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -71,6 +78,7 @@
 			files = (
 				209BA49328563A2800D6AFDF /* TinyConstraints in Frameworks */,
 				6CE486728A2C7AD137A73BF0 /* Pods_Termo.framework in Frameworks */,
+				209BA67E28577A1B00D6AFDF /* TinyConstraints in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +126,7 @@
 		209BA45D2856381A00D6AFDF /* Termo */ = {
 			isa = PBXGroup;
 			children = (
+				209BA6662857741200D6AFDF /* GameViewController.swift */,
 				209BA49528563C1800D6AFDF /* Resources */,
 				209BA49428563BEF00D6AFDF /* Home */,
 				209BA46F2856381A00D6AFDF /* Info.plist */,
@@ -146,6 +155,8 @@
 		209BA49428563BEF00D6AFDF /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				209BA663285771C600D6AFDF /* HomeView.swift */,
+				209BA662285771C600D6AFDF /* HomeViewModel.swift */,
 				209BA4622856381A00D6AFDF /* HomeViewController.swift */,
 			);
 			path = Home;
@@ -205,6 +216,7 @@
 			name = Termo;
 			packageProductDependencies = (
 				209BA49228563A2800D6AFDF /* TinyConstraints */,
+				209BA67D28577A1B00D6AFDF /* TinyConstraints */,
 			);
 			productName = Termo;
 			productReference = 209BA45B2856381A00D6AFDF /* Termo.app */;
@@ -283,6 +295,7 @@
 			mainGroup = 209BA4522856381A00D6AFDF;
 			packageReferences = (
 				209BA49128563A2800D6AFDF /* XCRemoteSwiftPackageReference "TinyConstraints" */,
+				209BA67C28577A1B00D6AFDF /* XCRemoteSwiftPackageReference "TinyConstraints" */,
 			);
 			productRefGroup = 209BA45C2856381A00D6AFDF /* Products */;
 			projectDirPath = "";
@@ -429,9 +442,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				209BA6672857741200D6AFDF /* GameViewController.swift in Sources */,
 				209BA49728563CB700D6AFDF /* AppCoordinator.swift in Sources */,
 				209BA4632856381A00D6AFDF /* HomeViewController.swift in Sources */,
 				209BA4692856381A00D6AFDF /* Termo.xcdatamodeld in Sources */,
+				209BA665285771C600D6AFDF /* HomeView.swift in Sources */,
+				209BA664285771C600D6AFDF /* HomeViewModel.swift in Sources */,
 				209BA45F2856381A00D6AFDF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -780,10 +796,23 @@
 				kind = branch;
 			};
 		};
+		209BA67C28577A1B00D6AFDF /* XCRemoteSwiftPackageReference "TinyConstraints" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/roberthein/TinyConstraints.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		209BA49228563A2800D6AFDF /* TinyConstraints */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 209BA49128563A2800D6AFDF /* XCRemoteSwiftPackageReference "TinyConstraints" */;
+			productName = TinyConstraints;
+		};
+		209BA67D28577A1B00D6AFDF /* TinyConstraints */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 209BA49128563A2800D6AFDF /* XCRemoteSwiftPackageReference "TinyConstraints" */;
 			productName = TinyConstraints;

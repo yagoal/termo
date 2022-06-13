@@ -15,17 +15,18 @@ enum TermoRouter: Route {
 
 class AppCoordinator: NavigationCoordinator<TermoRouter> {
     init() {
-        super.init(initialRoute: .home)
+        super.init(rootViewController: UINavigationController(), initialRoute: .home)
     }
 
     override func prepareTransition(for route: TermoRouter) -> NavigationTransition {
         switch route {
         case .home:
-            let viewController = HomeViewController()
+            let viewModel = HomeViewModel(router: unownedRouter)
+            let viewController = HomeViewController(viewModel: viewModel)
             return .push(viewController)
         case .game:
             let viewController = GameViewController()
-            return .present(viewController)
+            return .push(viewController)
         }
     }
 }

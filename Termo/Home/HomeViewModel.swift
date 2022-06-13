@@ -16,6 +16,7 @@ final class HomeViewModel {
     }
     
     func playPressed() {
+        print("clicou")
         router.trigger(.game)
     }
 }

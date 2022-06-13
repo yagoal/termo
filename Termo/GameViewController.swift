@@ -11,6 +11,7 @@ import TinyConstraints
 final class GameViewController: UIViewController {
     
     override func viewDidLoad() {
+        view.backgroundColor = .systemBlue
         super.viewDidLoad()
     }
     
